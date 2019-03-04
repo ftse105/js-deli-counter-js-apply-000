@@ -1,5 +1,5 @@
 function takeANumber(line, name) {
-  // line.push(name);
+  line.push(name);
 
   var str = "Welcome, " + name + ". You are number " + line.length + " in line."
   return str;
